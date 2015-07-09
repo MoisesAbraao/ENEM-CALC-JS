@@ -1,0 +1,79 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+body{
+	width: 100%;
+	font: 20px Arial;
+	color: #00979C;
+	background-color:yellow;
+}
+
+header{
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	line-height: 20px;
+	color: white; 
+	background: #00979C;
+	font: 40px Arial;
+}
+
+#rodape {
+	margin: 0 auto;
+	margin-top: 11.8%;
+	margin-bottom: 0 auto;
+	background: #00979C;
+	width: 100%;
+}
+#rodape p {
+	text-align: center;
+	padding: 5px;
+	color: white;
+}
+
+#page{
+	margin-top: 76px;
+}
+
+
+
+input{
+	font: 20px Arial;
+	color: #00979C;
+	width: 100%;
+	height: 30px;
+	margin-top: 10px;
+	display: block;
+}
+
+#button1 input{
+	font: 20px Arial;
+	display: block;
+	width: 50%;
+	background: #00979C;
+	text-decoration: none;
+	height: 40px;
+	margin: 1%;
+	text-align: center; 
+	color: white;
+	line-height: 40px;
+	border-radius: 20px;
+	border-color:white; 
+}
+#button2 input{
+	font: 20px Arial;
+	display: block;
+	width: 50%;
+	background: #00979C;
+	text-decoration: none;
+	height: 40px;
+	margin: auto;
+	text-align: center;
+	color: white;
+	line-height: 40px;
+	border-radius: 20px;
+	border-color:white;
+}

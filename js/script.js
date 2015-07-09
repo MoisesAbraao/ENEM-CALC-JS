@@ -7,7 +7,7 @@ function calcular(){
 
 	var resultado = (parseFloat(campo1) + parseFloat(campo2) + parseFloat(campo3) + parseFloat(campo4) + parseFloat(campo5))/5;
 
-	alert(resultado);
+	alert("Sua média no ENEM:" + resultado);
 }
 function nova_consulta(){
 	if(document.getElementById('text1').value!="") {

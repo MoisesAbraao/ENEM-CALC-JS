@@ -6,7 +6,7 @@ function calcular(){
 	var campo5 = document.form1.text5.value.replace(",", ".");
 
 	var resultado = (parseFloat(campo1) + parseFloat(campo2) + parseFloat(campo3) + parseFloat(campo4) + parseFloat(campo5))/5;
-
+	
 	alert("Sua média no ENEM:" + resultado);
 }
 function nova_consulta(){
@@ -16,7 +16,22 @@ function nova_consulta(){
 	document.getElementById('text3').value="";
 	document.getElementById('text4').value="";
 	document.getElementById('text5').value="";
+}	
 }
-	
-	
+
+function Onlynumbers(e)
+{
+	var tecla=new Number();
+	if(window.event) {
+		tecla = e.keyCode;
+	}
+	else if(e.which) {
+		tecla = e.which;
+	}
+	else {
+		return true;
+	}
+	if((tecla >= "97") && (tecla <= "122")){
+		return false;
+	}
 }

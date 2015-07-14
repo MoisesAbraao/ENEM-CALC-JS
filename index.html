@@ -4,12 +4,14 @@
 		<meta charset="UTF-8">
 		<link type="text/css" rel="stylesheet" href="css/estilo.css">
 		<script type="text/javascript" src="js/script.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 	</head>
 	<body>
 		<header>Enem Calc</header>
 		<div id="page">
  			<center>
-				<form name="form1">
+				<form name="form1" onkeypress="return Onlynumbers(event)">
 				<table>
 					<tr>
 						<td>Ciências Humanas e suas Tecnologias</td>
@@ -36,7 +38,7 @@
 					<input type="button" value="calcular" onclick="calcular()">
 				</div>
 				<div id="button2">
-				<input type="button" value="Nova consulta" onclick="nova_consulta()">
+					<input type="button" value="Nova consulta" onclick="nova_consulta()">
 				</div>
 				</form>
 			</center>

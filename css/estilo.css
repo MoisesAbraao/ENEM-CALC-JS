@@ -1,17 +1,65 @@
 *{
-	margin: 0;
-	padding: 0;
+	margin: 0 auto;
+	padding: 0 auto;
 	list-style: none;
 }
 
 body{
-	width: 100%;
-	font: 20px Arial;
+	/*font: 20px Arial;*/
 	color: #00979C;
-	background-color:yellow;
+	background-color:white;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+/* Styles */body{font: 87.5% Arial;}
+#rodape{margin-top: 100%;}
+
+}
+/* Smartphones (landscape) ———– */
+@media only screen and (min-width : 321px) {
+/* Styles */body{font: 87.5% Arial;}
+#rodape{margin-top: 50px;}
+
+}
+/* Smartphones (portrait) ———– */
+@media only screen and (max-width : 320px) {
+/* Styles */body{font: 87.5% Arial;}
+#rodape{margin-top: 0 auto;}
+}
+/* iPads (portrait and landscape) ———– */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+/* Styles */body{font: 87.5% Arial;}
+#rodape{margin-top: 0 auto;}
+}
+/* iPads (landscape) ———– */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+/* Styles */body{font: 87.5% Arial;}
+#rodape{margin-top: 0 auto;}
+}
+/* iPads (portrait) ———– */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+/* Styles */body{font: 87.5% Arial;}
+#rodape{margin-top: 160px;}
+}
+/* Desktops and laptops ———– */
+@media only screen and (min-width : 1224px) {
+/* Styles */body{font: 20px Arial;}
+}
+/* Large screens ———– */
+@media only screen and (min-width : 1824px) {
+	body{font: 87.5% Arial;}	
+	#rodape{margin-top: 0 auto;}
+/* Styles */
+}
+/* iPhone 4 ———– */
+@media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */body{font: 87.5% Arial;}
+			#rodape{margin-top: 0 auto;}
 }
 
 header{
+	position: fixed;
+	margin-top: -50px;
 	width: 100%;
 	height: 50px;
 	text-align: center;
@@ -23,19 +71,21 @@ header{
 
 #rodape {
 	margin: 0 auto;
-	margin-top: 11.8%;
+	margin-top: 160px;
 	margin-bottom: 0 auto;
 	background: #00979C;
 	width: 100%;
 }
 #rodape p {
 	text-align: center;
-	padding: 5px;
+	padding: 20px;
 	color: white;
 }
 
 #page{
-	margin-top: 76px;
+	position: center;
+	margin-top: 50px;
+	padding-top: 50px;
 }
 
 
@@ -46,6 +96,7 @@ input{
 	width: 100%;
 	height: 30px;
 	margin-top: 10px;
+	border: 1px solid #00979C;
 	display: block;
 }
 
